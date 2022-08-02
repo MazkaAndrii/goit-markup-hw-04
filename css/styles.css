@@ -228,7 +228,7 @@ h6 {
 .oteam-items {
   background-color: var(--accent-color);
   border-radius: 0px 0px 4px 4px;
-  width: calc((100%-30px;) / 3);
+  width: calc((100%-30px) / 3);
 }
 .oteem-header {
   font-weight: 500;
