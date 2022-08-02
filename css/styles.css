@@ -1,0 +1,347 @@
+:root {
+  --header-color: #2196f3;
+  --accent-color: #ffffff;
+  --text-color: #212121;
+  --font-weight: 700;
+  --basetext-color: #757575;
+}
+
+.list {
+  list-style: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
+
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.link {
+  text-decoration: none;
+}
+.hidden-head {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.section {
+  padding: 94px 0px;
+}
+
+.absec {
+  padding-top: 0px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+  background-color: var(--accent-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  margin: 0px;
+  padding-left: 0px;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+/*----------------HEADER----------------*/
+.header .container {
+  display: flex;
+  align-items: center;
+}
+.header {
+  padding: 10px 0px 15px;
+  border-bottom: 1px solid #ececec;
+}
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: var(--font-weight);
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--header-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+.logo-header {
+  color: #000000;
+}
+.nav-list {
+  column-gap: 50px;
+}
+.nav-list-item.current {
+  color: var(--header-color);
+}
+.nav-list-item,
+.header-tel,
+.mail {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: var(--header-color);
+}
+
+.header-tel,
+.mail {
+  color: var(--basetext-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--header-color);
+}
+
+.mail:hover,
+.mail:focus {
+  color: var(--header-color);
+}
+.contacts {
+  margin-left: auto;
+  column-gap: 50px;
+}
+
+.mail {
+  margin: 9px auto;
+}
+
+/* -------------Hero------------------- */
+.hero {
+  background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+.hero-h {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  max-width: 695px;
+
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.hero-bt {
+  font-family: inherit;
+  font-weight: var(--font-weight);
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--accent-color);
+  background-color: var(--header-color);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 10px 32px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.hero-bt:hover,
+.hero-bt:focus {
+  background-color: #188ce8;
+}
+
+/* -------------Benefits---------------- */
+.benefits {
+  padding-top: 68px;
+  padding-bottom: 94px;
+}
+
+.bts-header {
+  font-weight: var(--font-weight);
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.bts-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--basetext-color);
+  margin: 0px;
+  max-width: 270px;
+}
+
+/* --------------About---------------- */
+.about-header {
+  font-weight: var(--font-weight);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+/* --------------Our team------------- */
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.oteam-items {
+  background-color: var(--accent-color);
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100%-30px;) / 3);
+}
+.oteem-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin: 0px 0px 10px;
+}
+.oteem-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--basetext-color);
+}
+
+.oteam-text {
+  padding: 30px 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+/*--------------Footer------------------*/
+.basement {
+  background-color: #2f303a;
+}
+
+.ft {
+  display: block;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: var(--font-weight);
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--header-color);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  padding-top: 60px;
+  margin-bottom: 20px;
+}
+.logo-footer {
+  color: var(--accent-color);
+  padding-top: 60px;
+}
+.basement-adr {
+  display: block;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+  padding-bottom: 60px;
+  max-width: 231px;
+  text-align: left;
+}
+.contacts-ft {
+  list-style: none;
+}
+
+/* ----------------------PORTFOLIO---------------------------- */
+
+.oserv-but {
+  margin-bottom: 34px;
+  column-gap: 8px;
+  justify-content: center;
+}
+
+.filter {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  background: #f5f4fa;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px 22px;
+  min-width: 73px;
+  text-align: center;
+  border: 0;
+}
+.filter:hover,
+.filter:focus {
+  background: var(--header-color);
+  color: var(--accent-color);
+}
+
+.oserv-list {
+  flex-wrap: wrap;
+}
+
+.oserv-item {
+  
+  width: 370px;
+}
+
+.oserv-item-head {
+  font-weight: var(--font-weight);
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-color);
+}
+.oserv-item-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--basetext-color);
+}
+.oserv-text {
+  padding: 20px 24px;
+  border: 1px solid #eeeeee;
+}
