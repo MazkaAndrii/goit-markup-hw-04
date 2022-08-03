@@ -123,12 +123,19 @@ h6 {
 
 .header-tel,
 .mail {
+  display: flex;
+  align-items: center;
   color: var(--basetext-color);
 }
 .header-tel:hover,
 .header-tel:focus {
   color: var(--header-color);
 }
+.header-tel:hover .contacts-icon,
+.header-tel:focus .contacts-icon {
+  fill: var(--header-color);
+}
+
 
 .mail:hover,
 .mail:focus {
@@ -140,10 +147,18 @@ h6 {
 }
 
 .mail {
-  margin: 9px auto;
+    margin: 9px auto;
 }
 .contacts-icon {
-
+  margin-right: 10px;
+  }
+.contacts-icon:hover, 
+.contacts-icon:focus {
+  fill: var(--header-color);
+}
+.mail:hover .contacts-icon,
+.mail:focus .contacts-icon {
+  fill: var(--header-color);
 }
 
 /* -------------Hero------------------- */
