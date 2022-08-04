@@ -294,6 +294,8 @@ h6 {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  
+
 }
 .otem-soc-icon {
   fill: #afb1b8;
@@ -347,11 +349,33 @@ h6 {
 .contacts-ft {
   list-style: none;
 }
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+.ft-header {
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--accent-color)
 
+
+}
+.otem-soc-icon-ft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+  background-color: #2196f3;
+
+}
 .footer-soc {
-  /* display: flex;
-  column-gap: 70px;
-  align-items: center; */
+  
 }
 
 /* ----------------------PORTFOLIO---------------------------- */
