@@ -136,7 +136,6 @@ h6 {
   fill: var(--header-color);
 }
 
-
 .mail:hover,
 .mail:focus {
   color: var(--header-color);
@@ -147,12 +146,12 @@ h6 {
 }
 
 .mail {
-    margin: 9px auto;
+  margin: 9px auto;
 }
 .contacts-icon {
   margin-right: 10px;
-  }
-.contacts-icon:hover, 
+}
+.contacts-icon:hover,
 .contacts-icon:focus {
   fill: var(--header-color);
 }
@@ -238,7 +237,7 @@ h6 {
 }
 
 .benefits-item-icon {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   margin-bottom: 30px;
 }
 
@@ -299,8 +298,6 @@ h6 {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  
-
 }
 .otem-soc-icon {
   fill: #afb1b8;
@@ -331,15 +328,15 @@ h6 {
   margin-bottom: 50px;
 }
 
- .cust-link {
+.cust-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 170px;
   height: 92px;
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-   }
+}
 
 .icon-сust {
   fill: #afb1b8;
@@ -353,11 +350,9 @@ h6 {
   fill: var(--header-color);
 }
 
-
-
 /* ----------Footer------------------*/
 .basement {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .ft {
@@ -396,28 +391,40 @@ h6 {
   align-items: center;
   gap: 70px;
 }
-.ft-header {
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-color: var(--accent-color)
-
-
+.footer-soc {
 }
-.otem-soc-icon-ft {
+.ft-header {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color);
+}
+
+.ft-soc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.ft-soc-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  fill: #afb1b8;
-  background-color: #2196f3;
-
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.footer-soc {
-  
+.otem-soc-icon-ft {
+  fill: #ffffff;
+}
+
+.ft-soc-link:hover,
+.ft-soc-link:focus {
+  background-color: var(--header-color);
 }
 
 /* ----------------------PORTFOLIO---------------------------- */
