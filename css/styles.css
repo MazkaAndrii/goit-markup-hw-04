@@ -318,9 +318,46 @@ h6 {
   fill: var(--accent-color);
 }
 
-/*--------------Footer------------------*/
+/*--------------Customers--------------- */
+
+.customers-header {
+  font-weight: var(--font-weight);
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+ .cust-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+   }
+
+.icon-сust {
+  fill: #afb1b8;
+}
+.cust-link:hover,
+.cust-link:focus {
+  background-color: var(--accent-color);
+}
+.cust-link:hover:hover .icon-сust,
+.cust-link:focus .icon-сust {
+  fill: var(--header-color);
+}
+
+
+
+/* ----------Footer------------------*/
 .basement {
-  background-color: #2f303a;
+  background-color: #2F303A;
 }
 
 .ft {
