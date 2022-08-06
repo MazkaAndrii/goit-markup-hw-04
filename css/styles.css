@@ -205,6 +205,7 @@ h6 {
   padding: 10px 32px;
   max-width: 100%;
   margin: 0 auto;
+  border: none;
 }
 .hero-bt:hover,
 .hero-bt:focus {
