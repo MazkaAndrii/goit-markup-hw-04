@@ -113,7 +113,7 @@ h6 {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--text-color);
+  color: var(--basetext-color);
 }
 
 .nav-list-item:hover,
@@ -150,6 +150,7 @@ h6 {
 }
 .contacts-icon {
   margin-right: 10px;
+  fill: var(--basetext-color);
 }
 .contacts-icon:hover,
 .contacts-icon:focus {
@@ -238,8 +239,13 @@ h6 {
 }
 
 .benefits-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
 }
 
 /* --------------About---------------- */
@@ -386,13 +392,16 @@ h6 {
   max-width: 231px;
   text-align: left;
 }
+.footer-contacts {
+  margin-right: 70px;
+}
 .contacts-ft {
   list-style: none;
 }
 .footer {
   display: flex;
-  align-items: center;
-  gap: 70px;
+  align-items: baseline;
+  
 }
 
 .ft-header {
@@ -433,7 +442,7 @@ h6 {
 /* ----------------------PORTFOLIO---------------------------- */
 
 .oserv-but {
-  margin-bottom: 34px;
+  margin-bottom: 50px;
   column-gap: 8px;
   justify-content: center;
 }
@@ -467,13 +476,14 @@ h6 {
 }
 
 .oserv-item {
+  display: block;
   width: 370px;
 }
-
 .oserv-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
+
 
 .oserv-item-head {
   font-weight: var(--font-weight);
