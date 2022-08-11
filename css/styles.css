@@ -80,7 +80,7 @@ h6 {
   align-items: center;
 }
 .header {
-  padding: 10px 0px 15px;
+  padding: 24px 0px 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -93,8 +93,6 @@ h6 {
   color: var(--header-color);
   text-decoration: none;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-right: 93px;
 }
 .logo-header {
@@ -362,6 +360,8 @@ h6 {
 /* ----------Footer------------------*/
 .basement {
   background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .ft {
@@ -398,8 +398,7 @@ h6 {
 .footer {
   display: flex;
   align-items: baseline;
-  padding-top: 60px;
-  padding-bottom: 60px;
+ 
   
 }
 
